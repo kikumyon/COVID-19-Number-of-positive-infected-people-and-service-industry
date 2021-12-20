@@ -10,6 +10,7 @@ from pandas_estat import read_statslist
 from pandas_estat import read_statsdata 
 
 # 「e-Stat」のAPI機能を用いるためappIdを入力しますが,個人情報に当たりますので,IDは伏せさせていただきます
+#　実行したい方は右記のURLからアクセスし,ユーザー登録した後にappIDを取得し,appIDに貼り付けて下さい。https://www.e-stat.go.jp/mypage/user/preregister
 appID = "xxxxxxxxxxxxxxxxxx" 
 set_appid(appID) 
 
