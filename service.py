@@ -72,10 +72,6 @@ for i in service:
     ax.plot(x,y,marker="o",zorder=100)
     ax.legend()
 
-    #　保存する
-    #　パス名は個人情報に当たりますので,一部伏せさせていただきます
-    plt.savefig("/xxxxx/xxxxx/"+str(i)+".pdf")
-    
     #　コンピュータ上にグラフを表示する
     plt.show()
     plt.close()
