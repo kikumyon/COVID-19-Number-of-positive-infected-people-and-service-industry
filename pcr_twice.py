@@ -53,10 +53,6 @@ for ax in axs:
     ax.legend()     
 fig.tight_layout()
 
-#　保存する
-#　パス名は個人情報に当たりますので,一部伏せさせていただきます
-plt.savefig("/xxxxx/xxxxx/pcr_twice.pdf")
-
 #　コンピュータ上にグラフを表示する
 plt.show()
 plt.close()
