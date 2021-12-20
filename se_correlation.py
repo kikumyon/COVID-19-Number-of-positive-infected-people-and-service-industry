@@ -140,10 +140,6 @@ for i in service:
         ax.text(y1b[f]+10,yn1b[f]+7.5,str(f+1)+"月",color="k",fontsize=10)
     ax.legend()
 
-    #　保存する
-    #　パス名は個人情報に当たりますので,一部伏せさせていただきます
-    plt.savefig("/xxxxx/xxxxx/"+str(i)+"v0710.pdf")
-
     #　コンピュータ上にグラフを表示する
     plt.show()
     plt.close() 
